@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FoodBuddy</string>
+    <string name="logo">logo.png</string>
+    <string name="loginEmailLabel">Email</string>
+    <string name="loginPasswordLabel">Password</string>
+    <string name="loginButtonLabel">Log in</string>
+    <string name="loginFacebookButton">Login with Facebook</string>
+    <string name="loginGmailLabel">Login with Google</string>
+    <string name="loginSignUpLabel">Not on Food Buddy yet? Sign up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginConfirmPassword">Confirm Password</string>
+    <string name="loginLabel">Already a member? Log in</string>
+    <string name="WEB_CLIENT_ID">965005834194-inierkp2hr88a6j961p1mcim2kokb8k9.apps.googleusercontent.com</string>
+    <string name="registerButtonLabel">Register your account</string>
+</resources>
