@@ -14,4 +14,8 @@
     <string name="loginLabel">Already a member? Log in</string>
     <string name="WEB_CLIENT_ID">965005834194-inierkp2hr88a6j961p1mcim2kokb8k9.apps.googleusercontent.com</string>
     <string name="registerButtonLabel">Register your account</string>
+
+    <string name="facebook_app_id">217837862269049</string>
+    <string name="fb_login_protocol_scheme">fb217837862269049</string>
+
 </resources>

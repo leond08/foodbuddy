@@ -3,20 +3,17 @@ package ph.foodbuddy.falcon.com.foodbuddy.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.facebook.login.LoginManager;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
 import ph.foodbuddy.falcon.com.foodbuddy.R;
@@ -56,6 +53,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
+                LoginManager.getInstance().logOut();
                 mGoogleSignInClient.signOut();
                 mAuth.signOut();
                 redirectToLogin(view);
